@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PROMETEO - Car Controller/Scenes/MainMenu.unity
+    path: Assets/MainMenu.unity
     guid: f2c5ed365cc3a0c4d9ccbf315801b05d
   - enabled: 1
     path: Assets/PROMETEO - Car Controller/Scenes/Demo.unity
