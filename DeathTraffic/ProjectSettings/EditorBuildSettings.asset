@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/MainMenu.unity
     guid: f2c5ed365cc3a0c4d9ccbf315801b05d
   - enabled: 1
-    path: Assets/PROMETEO - Car Controller/Scenes/Demo.unity
-    guid: d05c07244ed6a3740be3bdad186521e6
+    path: Assets/PIRMAS.unity
+    guid: e71dd4e58f289c3428c0b8bfe28667fa
   m_configObjects: {}
