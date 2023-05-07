@@ -13,6 +13,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PrometeoCarController : MonoBehaviour
 {
@@ -67,9 +68,29 @@ public class PrometeoCarController : MonoBehaviour
       public GameObject rearRightMesh;
       public WheelCollider rearRightCollider;
 
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            if (collision.collider.CompareTag("enemycar"))
+            {
+                // Restart the game when the player car touches another car
+                RestartGame();
+            }
+        }
+
+        private void RestartGame()
+        {
+            // Load the current scene again
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+
+
+
+
     //PARTICLE SYSTEMS
 
-      [Space(20)]
+    [Space(20)]
       //[Header("EFFECTS")]
       [Space(10)]
       //The following variable lets you to set up particle systems in your car
