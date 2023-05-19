@@ -69,20 +69,22 @@ public class PrometeoCarController : MonoBehaviour
       public WheelCollider rearRightCollider;
 
 
-        private void OnCollisionEnter(Collision collision)
+    public GameManager gameManager;
+    
+
+    public void OnCollisionEnter(Collision collision)
         {
-            if (collision.collider.CompareTag("enemycar"))
+            if (collision.collider.CompareTag("enemycar") ) 
             {
-                // Restart the game when the player car touches another car
-                RestartGame();
+                GameManager.isGameOver = true;
+            Time.timeScale = 0;
+            
+
             }
         }
 
-        private void RestartGame()
-        {
-            // Load the current scene again
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+   
+
 
 
 
