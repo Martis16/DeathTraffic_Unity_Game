@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: f2c5ed365cc3a0c4d9ccbf315801b05d
   - enabled: 1
-    path: Assets/Snow mountain tracks/s1.unity
+    path: Assets/AddOns/Snow mountain tracks/s1.unity
     guid: 55357f48a3e2b4643b0983826b854f64
   m_configObjects: {}
