@@ -19,18 +19,6 @@ namespace WaypointsFree
             }
         }
 
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
-
         /// <summary>
         /// Returns a list of  Waypoints; resets the parent transform if reparent == true
         /// </summary>
@@ -46,10 +34,8 @@ namespace WaypointsFree
                     wp.SetWaypointGroup(this);
              }
 
-
             return waypoints;
         }
-
 
         public void AddWaypoint(Waypoint wp, int ndx = -1)
         {
