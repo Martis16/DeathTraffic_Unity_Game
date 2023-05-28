@@ -20,5 +20,6 @@ Atsidarius DeathTraffic katalogą atidarome programą pavadinimu DeathTraffic ir
 Mašinėlė valdoma klaviatūros klavišais WASD, sustabdymas - klavišas P(ESC).
 
 # Architektūra
+Architektura vaiduoja UNITY script'ų hierarchiją
 ![Archgame](https://github.com/Martis16/DeathTraffic/assets/127874912/1a07baba-34d6-4269-a0c8-32f4e6790085)
 
