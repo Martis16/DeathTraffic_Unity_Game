@@ -2,8 +2,11 @@
 Komanda 5 
 
 Kūrėjai:
-Martynas Burneika \n
+
+Martynas Burneika 
+
 Domas Rinkevičius
+
 Žygintas Cegelskis
 
 # Aprašymas
