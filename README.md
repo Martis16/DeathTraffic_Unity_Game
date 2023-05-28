@@ -2,7 +2,7 @@
 Komanda 5 
 
 Kūrėjai:
-Martynas Burneika 
+Martynas Burneika \n
 Domas Rinkevičius
 Žygintas Cegelskis
 
