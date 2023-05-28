@@ -1,11 +1,9 @@
 # DeathTraffic
-
 Komanda 5 
 
+Kūrėjai:
 Martynas Burneika 
-
 Domas Rinkevičius
-
 Žygintas Cegelskis
 
 # Aprašymas
